@@ -1,0 +1,26 @@
+// .stylelintignore
+
+# 测试和打包目录
+dist
+public
+env
+build
+.vscode
+.husky
+.DS_Store
+.github
+typings
+README.md
+node_modules
+
+# 其他类型文件
+*.js
+*.tsx
+*.ts
+*.json
+*.png
+*.eot
+*.ttf
+*.woff
+
+src/styles/antd-overrides.less

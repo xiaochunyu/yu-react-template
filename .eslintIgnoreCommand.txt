@@ -1,0 +1,6 @@
+// 忽略ESLint的某些规则检查，此时我们可以通过加入代码注释的方式解决：可以指定整个文件、某一行、某一区块开启/关闭 某些或全部规则检查；
+
+/* eslint-disable */    --禁用全部规则  放在文件顶部则整个文件范围都不检查
+/* eslint-disable no-alert, no-console */  --禁用某些规则
+// eslint-disable-line     --当前行上禁用规则
+// eslint-disable-next-line --下一行上禁用规则
